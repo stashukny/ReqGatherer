@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8b75270b-ffd8-47c7-b3db-972524311623" ChangeDateTime="05/22/2015 16:16:46">
+    <Property Name="ElementName" Value="[dbo].[Contacts].[ContactName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Contacts]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1edd585c-ca6b-4f2e-a632-2b9290d5a2cf" ChangeDateTime="05/22/2015 16:33:16">
+    <Property Name="ElementName" Value="[dbo].[Files].[SuccessEmail]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Files]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SuccessEmailAddress" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a34d1e1-7644-4271-a6c5-566278a1fa96" ChangeDateTime="05/22/2015 16:33:18">
+    <Property Name="ElementName" Value="[dbo].[Files].[ErrorEmail]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Files]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ErrorEmailAddress" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0fd0cfc9-e129-469d-a018-b49d7a5041ab" ChangeDateTime="05/22/2015 16:46:45">
+    <Property Name="ElementName" Value="[dbo].[FK_Customers_Intervals]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Customers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Customers_ToIntervals]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a85bcfff-01e0-497b-86a3-366a43b7418b" ChangeDateTime="05/22/2015 16:59:27">
+    <Property Name="ElementName" Value="[dbo].[Fields].[Displayed]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fields]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsVisible" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0d6096d8-90f3-418e-aff6-a942ce4c358e" ChangeDateTime="05/22/2015 16:59:31">
+    <Property Name="ElementName" Value="[dbo].[Fields].[Editable]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fields]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsEditable" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="92d28638-c79b-4c0d-8011-9cd7c1d4e5b7" ChangeDateTime="05/22/2015 16:59:34">
+    <Property Name="ElementName" Value="[dbo].[Fields].[Required]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fields]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsRequired" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6594cea8-1063-47d6-9e8f-5d6bc4d9fd21" ChangeDateTime="05/22/2015 17:17:10">
+    <Property Name="ElementName" Value="[dbo].[ControlStateExceptions].[FieldID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ControlStateExceptions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ControID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2ac7aa58-8343-421e-a601-114e45702406" ChangeDateTime="05/22/2015 17:17:14">
+    <Property Name="ElementName" Value="[dbo].[ControlStateExceptions].[ControID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ControlStateExceptions]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ControlID" />
+  </Operation>
+</Operations>
